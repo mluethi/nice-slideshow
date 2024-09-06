@@ -49,8 +49,6 @@ jobs:
       - name: Check typing
         run: uv run mypy
 
-
-
   check-docs:
     runs-on: ubuntu-latest
     steps:
