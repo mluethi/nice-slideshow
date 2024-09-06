@@ -3,8 +3,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from nicegui import app, ui
-from nicegui.events import KeyEventArguments
+from nicegui import app, ui  # type: ignore[attr-defined]
+from nicegui.events import KeyEventArguments  # type: ignore[attr-defined]
 
 ui.query(".nicegui-content").classes("p-0")  # remove padding from the main content
 
