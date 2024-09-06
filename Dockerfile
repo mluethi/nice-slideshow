@@ -18,4 +18,4 @@ ADD . /app
 # Sync the project
 RUN uv sync --frozen
 
-CMD [ "python", "nice_slideshow/foo.py"]
+CMD [ "python", "nice_slideshow/main.py"]

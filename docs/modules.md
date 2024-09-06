@@ -1,1 +1,1 @@
-::: nice_slideshow.foo
+::: nice_slideshow.main
